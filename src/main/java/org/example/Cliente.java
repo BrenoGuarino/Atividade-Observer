@@ -22,6 +22,5 @@ public class Cliente implements Observer {
 
     public void update(Observable servicoStreaming, Object arg1) {
         this.ultimaNotificacao = this.login + ", novo filme adicionado no " + servicoStreaming.toString();
-        System.out.println(this.ultimaNotificacao);
     }
 }
